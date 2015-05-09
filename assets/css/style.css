@@ -60,25 +60,26 @@
 	}
 	#show1{
 		position:absolute;
-		top:0px;
+		top:50px;
 		left:500px;
+		width: 300px
 	}
 	
 	#show2{
 		position:absolute;
-		top:0px;
+		top:50px;
 		right:500px;
 	}
 	
 	#show1.animated{
 		position:absolute;
-		top:0px;
-		left:0px;
+		top:50px;
+		left:30px;
 	}
 	
 	#show2.animated{
 		position:absolute;
-		top:0px;
+		top:50px;
 		right:0px;
 	}
 	
@@ -700,15 +701,7 @@ h3{
 		color:#2b2b2b;
 	}
 	
-	.features-more{
-		background: url(../../assets/img/shadright.png) bottom right no-repeat;
-		
-	}
 	
-	.features-more:nth-child(even){
-		background: url(../../assets/img/shadleft.png) bottom left no-repeat;
-		
-	}
 	.features-more:nth-child(odd).span6{
 		background: url(../../assets/img/shadright.png) bottom right no-repeat;
 		
